@@ -13,7 +13,7 @@ import com.google.inject.Singleton;
 import com.google.inject.name.Named;
 import com.google.inject.name.Names;
 
-public class PayrollModule extends AbstractModule {
+public class AgricultureInspectionModule extends AbstractModule {
     @Override
     protected void configure() {
         bind(String.class)
