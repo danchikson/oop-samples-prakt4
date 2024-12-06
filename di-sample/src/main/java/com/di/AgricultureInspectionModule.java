@@ -18,7 +18,7 @@ public class AgricultureInspectionModule extends AbstractModule {
     protected void configure() {
         bind(String.class)
             .annotatedWith(Names.named("JDBC URL"))
-            .toInstance("jdbc:sqlite:target/payroll.db");
+            .toInstance("jdbc:sqlite:target/AgricultureInspection.db");
     }
 
     // Метод для надання списку працівників
